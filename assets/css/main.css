@@ -22734,7 +22734,7 @@ select {
             
 
             .main-footer {
-                background-color: var(--ogency-black2);
+          
                 position: relative;
                 padding: 10px 0 20px;
                 background-size: cover;
@@ -22749,15 +22749,7 @@ select {
                 }
               }
               
-              .main-footer__top {
-                position: relative;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                border-bottom: 1px solid RGBA(var(--ogency-white-rgb), 0.1);
-                padding-bottom: 30px;
-                margin-bottom: 88px;
-              }
+              
               
               @media (max-width: 360px) {
                 .main-footer__top {
@@ -22774,8 +22766,8 @@ select {
               .main-footer__navmenu .footer__social i {
                 width: 30px;
                 height: 30px;
-                background-color: var(--ogency-base);
-                color: var(--ogency-white);
+                background-color:#000;
+                color: #fff;
                 line-height: 30px;
                 border-radius: 50%;
                 font-size: 15px;
@@ -22802,8 +22794,8 @@ select {
                 display: inline-block;
                 width: 35px;
                 height: 35px;
-                background-color: var(--ogency-black);
-                color: var(--ogency-white);
+                background-color: #000;
+                color: #fff;
                 line-height: 33px;
                 border-radius: 50%;
                 font-size: 15px;
@@ -22819,7 +22811,7 @@ select {
               }
               
               .main-footer__social a:hover {
-                background-color: var(--ogency-base);
+                background-color: rgba(255, 255, 255, .059);
               }
               
               .main-footer__about p {
@@ -22868,8 +22860,8 @@ select {
               .main-footer__navmenu ul li .location{
                 width: 100px;
                   height: 30px;
-                  background-color: var(--ogency-base);
-                  color: var(--ogency-white);
+                  background-color: #000;
+                  color: #fff;
                   line-height: 30px;
                   border-radius: 50%;
                   font-size: 15px;
@@ -22882,7 +22874,7 @@ select {
                 }
               }
               .cs-widget_title {
-                color: var(--ogency-base);
+                color: #fff;
                 letter-spacing: 0.4px;
               }
               
@@ -22892,7 +22884,7 @@ select {
               }
               
               .main-footer__navmenu ul li a:hover {
-                color: var(--ogency-base);
+                color: #e42517;
               }
               
               .main-footer__copyright {
@@ -22912,6 +22904,13 @@ select {
                 color: var(--ogency-base);
               }
 
-
+              .brochure {
+                border: 2px solid #555;
+                padding: 20px;
+                margin-top: 1em;
+                border-radius: 10px;
+                text-align: center;
+                /* width: 18vw; */
+            }
 
 
