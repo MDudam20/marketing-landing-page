@@ -22397,7 +22397,7 @@ select {
             background-size: var(--bs-accordion-btn-icon-width);
             -webkit-transition: var(--bs-accordion-btn-icon-transition);
             transition: var(--bs-accordion-btn-icon-transition);
-        }
+        } */
         .section-heading p{
             text-align: justify;
         }
