@@ -22380,7 +22380,7 @@ select {
             background-repeat: no-repeat;
             background-image: url("/image/12.png");
         }
-        .accordion-button:not(.collapsed):after {
+        /* .accordion-button:not(.collapsed):after {
             background-image: url("up.png");
             -webkit-transform: var(--bs-accordion-btn-icon-transform);
             transform: var(--bs-accordion-btn-icon-transform);
