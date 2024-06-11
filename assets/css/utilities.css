@@ -1,0 +1,99 @@
+.z-index-1 {
+  z-index: 1;
+}
+.border-package {
+  border: 1px solid #707070;
+}
+.border-package-body {
+  border-bottom: 1px solid #707070;
+}
+.top-30 {
+  top: 30%;
+}
+.end-90 {
+  right: 80%;
+}
+.bottom-18 {
+  bottom: 18%;
+}
+.ms-n5 {
+  margin-left: -3rem;
+}
+.rounded-10 {
+  border-radius: 10px;
+}
+.ff-lato {
+  font-family: Lato, sans-serif;
+}
+.ff-heebo {
+  font-family: Heebo, sans-serif;
+}
+.fw-medium {
+  font-weight: 500;
+}
+.fw-semibold {
+  font-weight: 600;
+}
+.text-primary {
+  color: #c33764 !important;
+}
+.text-secondary {
+  color: #1d2671 !important;
+}
+.text-light {
+  color: #e2e2e2 !important;
+}
+.text-black {
+  color: #222;
+}
+.text-gray {
+  color: #666;
+}
+.fs-14 {
+  font-size: calc(12px + (14 - 12) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-16 {
+  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-18 {
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-22 {
+  font-size: calc(17px + (22 - 17) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-24 {
+  font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-28 {
+  font-size: calc(20px + (28 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-30 {
+  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-35 {
+  font-size: calc(20px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-40 {
+  font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-45 {
+  font-size: calc(24px + (45 - 24) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-50 {
+  font-size: calc(25px + (50 - 25) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-60 {
+  font-size: calc(30px + (60 - 30) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-75 {
+  font-size: calc(37px + (75 - 37) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-88 {
+  font-size: calc(44px + (88 - 44) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-100 {
+  font-size: calc(50px + (100 - 50) * ((100vw - 320px) / (1920 - 320)));
+}
+.fs-118 {
+  font-size: calc(59px + (118 - 59) * ((100vw - 320px) / (1920 - 320)));
+}
