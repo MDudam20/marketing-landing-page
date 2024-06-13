@@ -22000,7 +22000,7 @@ section {
     padding-bottom: 20px;
 }
 .feature-content-wrap {
-    box-shadow: 0px 0px 8px #ff;
+    box-shadow: 0px 0px 8px #fff;
     border-color: #cd1716;
     border-radius: 24px;
 }
@@ -22008,7 +22008,7 @@ section {
     text-decoration: line-through;
 }
 .special_price {
-    color: #ff !important;
+    color: #fff !important;
     font-weight: 700;
     font-size: 40px;
 }
@@ -22301,7 +22301,7 @@ button.btn.btn-primary.packageBtn a {
 }
 
 .service-block .card {
-    height: 100px;
+    height: 135px;
     margin-bottom: 20px;
 }
 
@@ -22736,7 +22736,7 @@ select {
             .main-footer {
           
                 position: relative;
-                padding: 10px 0 20px;
+                padding: 55px 0 20px;
                 background-size: cover;
                 background-position: top center;
                 background-repeat: no-repeat;
@@ -22913,4 +22913,97 @@ select {
                 /* width: 18vw; */
             }
 
-
+           
+              .accordion-tag h5{
+                text-align: center;
+                padding: 20px 0;
+              }  
+              .accordion-tag{
+                border: 1px solid #55595c;
+                padding: 20px 0px;
+                /* display: flex; */
+                justify-content: center;
+                
+              }
+              /* .tag ul li a{
+                text-decoration: none;
+              }     */
+              .accordion-tag .accordion-header {
+                display: inline-block;
+                padding: 1rem;
+                /* background: #f7f7f7; */
+                cursor: pointer;
+                border: 1px solid #ccc;
+                margin-right: -1px;
+                position: relative;
+                padding: 2px 25px;
+                border-radius: 11px;
+                margin: 0px 5px 10px;
+                color: var(--ogency-base);
+                justify-content: center;
+              }
+              .accordion-tag .accordion-header.is-active {
+                background: #e7e7e7;
+                border-bottom: none;
+              }
+              .accordion-tag  .accordion-content {
+                display: none;
+                padding: 1rem;
+                border: 1px solid #282727;
+                margin: 20px 0px;
+                text-align: justify;
+                font-size: 15px;
+                background: #1c1a27;
+                color: #f1f1f1;
+                max-height: 300px;
+                overflow: auto;
+                overflow-x: hidden;
+                overflow-y: auto;
+                scrollbar-width: thin;
+                scrollbar-color: #1c1a27 #f1f1f1;
+              }
+              
+              .accordion-tag .accordion-content::-webkit-scrollbar-track {
+                background: #f1f1f1;
+              }
+              .accordion-tag  .accordion-content::-webkit-scrollbar-thumb {
+                background: var(--ogency-white);
+                border-radius: 5px;
+              }
+              .accordion-tag .accordion-content::-webkit-scrollbar-thumb:hover {
+                background: #555;
+              }
+              .accordion-tag .accordion-content img {
+                max-width: 100%;
+                height: auto;
+              }
+              
+              .accordion-tag .arrow {
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 10px;
+              }
+              .accordion-tag .arrow.down::before {
+                content: '▼';
+                color: #1c1a27;
+              }
+              .accordion-tag .arrow.up::before {
+                content: '▲';
+                display: inline-block;
+               color: #1c1a27;
+                cursor: pointer;
+              
+                margin-right: -1px;
+              }
+              .accordion-tag .accordion-header.is-active {
+                background: #e7e7e7;
+                border-bottom: none;
+              }
+              
+              .accordion-tag.accordion-content img {
+                max-width: 100%;
+                height: auto;
+              }
+              
